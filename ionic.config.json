@@ -1,0 +1,7 @@
+{
+  "name": "JSON REST API G5",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

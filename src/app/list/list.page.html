@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>List</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+
+  <ion-list *ngFor="let d of datos">
+    <ion-item-divider>
+      <ion-label>
+        User id:
+      </ion-label>
+      <ion-item>
+        <ion-label>{{d.userId}} </ion-label>
+      </ion-item>
+    </ion-item-divider>
+
+
+   
+
+    <ion-item-divider>
+      <ion-label>
+        id:
+      </ion-label>
+      <ion-item>
+        <ion-label>{{d.id}}</ion-label>
+      </ion-item>
+    </ion-item-divider>
+
+
+    <ion-item-divider>
+      <ion-label>
+        Title:
+      </ion-label>
+      <ion-item>
+        <ion-label>{{d.title}}</ion-label>
+      </ion-item>
+    </ion-item-divider>
+
+    
+    <ion-item-divider>
+      <ion-label>
+        Body:
+      </ion-label>
+      <ion-item>
+        <ion-label>{{d.body}}</ion-label>
+      </ion-item>
+    </ion-item-divider>
+
+
+    
+
+  </ion-list>
+
+  
+
+
+
+
+
+
+
+</ion-content>
